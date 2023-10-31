@@ -5,7 +5,7 @@ const Songs = () => {
   const { songs, playSong } = useContext(SongContext);
 
   return (
-    <div className="overflow-x-auto h-5/6">
+    <div className="overflow-x-auto h-4/6">
       <table className="table">
         {/* head */}
         <thead>
