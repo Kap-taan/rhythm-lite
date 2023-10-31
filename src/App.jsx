@@ -8,7 +8,7 @@ import SongContextProvider from "./stores/SongContext";
 function App() {
   return (
     <SongContextProvider>
-      <div className="App max-h-screen">
+      <div className="App h-screen relative">
         <Navbar />
         <Songs />
         <Footer />
