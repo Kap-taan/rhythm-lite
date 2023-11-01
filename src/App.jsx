@@ -9,9 +9,9 @@ function App() {
   return (
     <SongContextProvider>
       <div className="App h-screen relative">
-        <Navbar />
-        <Songs />
+        {/* <Navbar /> */}
         <Footer />
+        <Songs />
       </div>
     </SongContextProvider>
   );

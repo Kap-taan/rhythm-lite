@@ -12,7 +12,7 @@ const Footer = () => {
   } = useContext(SongContext);
 
   return (
-    <footer className="footer flex items-center p-4 bg-neutral text-neutral-content absolute bottom-0">
+    <footer className="footer flex items-center p-4 bg-neutral text-neutral-content">
       <div className="flex items-center w-full">
         {currentSong !== undefined && (
           <div className="mask mask-squircle w-14 h-14">
